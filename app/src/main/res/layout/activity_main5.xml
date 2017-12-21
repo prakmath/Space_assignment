@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ss"
+    tools:context="com.example.lenovo.space.Main5Activity">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:text="CLICK HERE TO KNOW MORE"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="207dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="A solar system is a star and all of the objects that travel around it — planets, moons, asteroids, comets and meteoroids."
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="103dp" />
+</android.support.constraint.ConstraintLayout>

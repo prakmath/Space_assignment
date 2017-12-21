@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gal2"
+    tools:context="com.example.lenovo.space.Main4Activity">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="349dp"
+        android:layout_height="421dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Every galaxy does have dust, though. Produced by stars, the dust causes light to look redder than it really is when observed visually, which can make it difficult for astronomers studying properties of stars.  That dust can really travel, too. Some galaxies drive galactic winds, expelling dust and gas at hundreds of kilometers per second into the intergalactic medium, the space between galaxies."
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="207dp"
+        android:layout_height="82dp"
+        android:text="CLICK HERE TO KNOW MORE"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="425dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.space.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="196dp"
+        android:layout_height="70dp"
+        android:onClick="goToActivity2"
+        android:text="CLICK HERE TO BEGIN"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="416dp"
+        android:layout_height="456dp"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="267dp"
+        android:layout_height="97dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="SPACE, THE FINAL FRONTIER"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="7dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context="com.example.lenovo.space.Main3Activity">
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="1) Saturn has a hexagonal shaped 24 hr storm."
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="116dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="3) The famous red spot of Venus is shrinking"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="2) Neptune has the largest gracvitational pull across all planets of the solar systems "
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+</android.support.constraint.ConstraintLayout>
